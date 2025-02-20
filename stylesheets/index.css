@@ -1,0 +1,129 @@
+body {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    
+    font-family: cursive;
+    background-color: #F0F0F0;
+
+    max-width: 42em;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: nav;
+}
+
+body nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+body nav div span {
+    font-weight: bold;
+    font-size: medium;
+}
+
+body nav div p {
+    font-weight: normal;
+    font-size: small;
+}
+
+body nav ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+body nav ul li {
+    list-style-type: none;
+}
+
+body nav ul li a {
+    font-size: small;
+    text-decoration: none;
+    color: #000000;
+}
+
+body header {
+    grid-area: header;
+}
+
+body header h1 {
+    font-size: x-large;
+}
+
+body main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5rem;
+}
+
+body main div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+body main div section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+body main div section p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+body main div button {
+    background: #FFD545;
+}
+
+body main img {
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+body main div section h2 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+body main div section img {
+    width: 28rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    border-top: solid #000000 0.1rem;
+    padding-top: 0.4rem;
+}
+
+footer p {
+    font-size: small;
+    font-weight: normal;
+    color: #000000;
+}
+
+footer p a {
+    text-decoration: overline;
+    color: #000000;
+    background: #00000028;
+}
+
+footer img {
+    width: 1rem;
+}
