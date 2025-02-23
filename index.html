@@ -57,11 +57,13 @@
                 <img src="https://ghchart.rshah.org/devmailar" alt="GitHub Profile Contributions">
             </section>
 
-            <button type="button">Get in Touch</button>
+            <button type="button" id="getInTouchButton">Get in Touch</button>
         </div>
 
         <img src="images/transformer.png" alt="transformer">
     </main>
+
+    <audio id="audio" src="sounds/get-in-touch.mp3" type="audio/mpeg"></audio>
 
     <footer>
         <p>&copy; 2025&nbsp;<a class="hover:underline hover:underline-offset-2" href="/">Leo Koivunen</a>.
@@ -69,6 +71,13 @@
         </p>
         <img src="images/finland.png" alt="finland">
     </footer>
+
+    <script>
+        document.getElementById('getInTouchButton').addEventListener('click', function () {
+            document.getElementById('audio').play();
+            this.disabled = true;
+        });
+    </script>
 </body>
 
 </html>
