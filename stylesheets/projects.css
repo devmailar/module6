@@ -1,0 +1,150 @@
+body {
+    position: relative;
+
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "header"
+        "main"
+        "footer";
+    row-gap: 2rem;
+    
+    font-family: cursive;
+    background-color: #ECEBF0;
+
+    max-width: 42em;
+    margin: auto;
+
+    padding: 0.5rem 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+body nav div {
+    display: grid;
+}
+
+body nav div span {
+    font-weight: bold;
+    font-size: medium;
+}
+
+body nav div p {
+    font-weight: normal;
+    font-size: small;
+}
+
+body nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1rem;
+}
+
+body nav ul li {
+    list-style-type: none;
+}
+
+body nav ul li a {
+    font-size: small;
+    text-decoration: none;
+    color: #000000;
+}
+
+body header {
+    grid-area: header;
+}
+
+body header h1 {
+    font-size: x-large;
+}
+
+body main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 5rem;
+}
+
+body main div {
+    display: grid;
+    row-gap: 1rem;
+}
+
+body main div section {
+    display: grid;
+    row-gap: 1rem;
+}
+
+body main div section span {
+    font-size: large;
+    font-weight: bold;
+}
+
+body main div section p {
+    font-size: medium;
+    font-weight: normal;
+}
+
+footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-top: solid #000000 0.1rem;
+    padding-top: 0.4rem;
+}
+
+footer p {
+    font-size: small;
+    font-weight: normal;
+    color: #000000;
+}
+
+footer p a {
+    text-decoration: overline;
+    color: #000000;
+    background: #00000028;
+}
+
+footer img {
+    width: 1rem;
+}
+
+/* BREAK POINT === tablet and mobile */
+@media only screen and (max-width: 900px) {
+    body {
+        grid-template-areas:
+            "nav"
+            "header"
+            "main"
+            "footer";
+        row-gap: 1rem;
+    }
+
+    body nav {
+        grid-template-columns: 1fr;
+    }
+
+    body main {
+        grid-template-columns: 1fr;
+        column-gap: 2rem;
+    }
+
+    body main img {
+        display: none;
+    }
+
+    body main div section img {
+        display: block;
+        width: 20rem;
+    }
+}
