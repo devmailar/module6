@@ -73,7 +73,9 @@
     </footer>
 
     <script>
-        document.getElementById('getInTouchButton').addEventListener('click', function () {
+        const getInTouchButton = document.getElementById('getInTouchButton');
+
+        getInTouchButton.addEventListener('click', function () {
             document.getElementById('audio').play();
             this.disabled = true;
         });
