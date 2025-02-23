@@ -18,10 +18,10 @@ body {
 }
 
 body nav {
+    grid-area: nav;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    grid-area: nav;
 }
 
 body nav div {
@@ -64,6 +64,7 @@ body header h1 {
 }
 
 body main {
+    grid-area: main;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -106,6 +107,7 @@ body main div section img {
 }
 
 footer {
+    grid-area: footer;
     display: flex;
     flex-direction: row;
     border-top: solid #000000 0.1rem;
