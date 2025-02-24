@@ -9,8 +9,8 @@ body {
         "footer";
     row-gap: 2rem;
     
-    font-family: cursive;
-    background-color: #ECEBF0;
+    font-family: 'Ubuntu Mono', sans-serif;
+    background-color: #F0F0F0;
 
     max-width: 42em;
     margin: auto;
