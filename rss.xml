@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Hi, I'm Leo - I write code</title>
-    <description>Lorem ipsum dolor sit.</description>
+    <description>I'm a fullstack developer with main focus on RnD work.</description>
     <link>https://devmailar.github.io/module6/</link>
     <atom:link href="https://devmailar.github.io/module6/rss.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Tue, 25 Feb 2025 16:26:18 +0000</pubDate>
@@ -9,7 +9,7 @@
     <generator>Jekyll v3.9.1</generator>
     <item>
       <title>Hello</title>
-      <description>I'm a fullstack developer with main focus on Research and Development. Past 3 years I worked with big and small software projects and from those I want to mention asti.hel.fi.</description>
+      <description>Im a fullstack developer with main focus on RnD work. Past 3 years I worked with big and small software projects. One of them is asti.hel.fi. Programming has always interested me since I was a kid, mostly due to the power and endless capabilities with it. Im a grasshopper i catch bugs and kill them.</description>
       <pubDate>Tue, 25 Feb 2025 16:26:18 +0000</pubDate>
       <link>https://devmailar.github.io/module6/</link>
       <category>Programming</category>
