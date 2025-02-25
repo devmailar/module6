@@ -2,8 +2,8 @@
   <channel>
     <title>Hi, I'm Leo - I write code</title>
     <description>Lorem ipsum dolor sit.</description>
-    <link>https://mailar.netlify.app/</link>
-    <atom:link href="https://mailar.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <link>https://devmailar.github.io/module6/</link>
+    <atom:link href="https://devmailar.github.io/module6/rss.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Tue, 25 Feb 2025 16:26:18 +0000</pubDate>
     <lastBuildDate>Tue, 25 Feb 2025 16:26:18 +0000</lastBuildDate>
     <generator>Jekyll v3.9.1</generator>
@@ -11,7 +11,7 @@
       <title>Hello</title>
       <description>I'm a fullstack developer with main focus on Research and Development. Past 3 years I worked with big and small software projects and from those I want to mention asti.hel.fi.</description>
       <pubDate>Tue, 25 Feb 2025 16:26:18 +0000</pubDate>
-      <link>https://mailar.netlify.app/</link>
+      <link>https://devmailar.github.io/module6/</link>
       <category>Programming</category>
       <category>About</category>
     </item>
@@ -19,7 +19,7 @@
       <title>ASTI Project</title>
       <description>Digital e-service to apply for a place in early childhood education or enrol a child to school.</description>
       <pubDate>Tue, 25 Feb 2025 16:26:18 +0000</pubDate>
-      <link>https://mailar.netlify.app/projects#asti</link>
+      <link>https://devmailar.github.io/module6/projects#asti</link>
       <category>Java</category>
       <category>Typescript</category>
       <category>Programming</category>
@@ -28,7 +28,7 @@
       <title>WHALE Project</title>
       <description>Online igaming platform and sportsbook.</description>
       <pubDate>Tue, 25 Feb 2025 16:26:18 +0000</pubDate>
-      <link>https://mailar.netlify.app/projects#whale</link>
+      <link>https://devmailar.github.io/module6/projects#whale</link>
       <category>Javascript</category>
       <category>Typescript</category>
       <category>Programming</category>
