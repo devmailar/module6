@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Leo's Portfolio Projects</title>
+    <link>https://mailar.netlify.app</link>
+    <description>Updates on Leo's portfolio projects.</description>
+    <item>
+      <title>ASTI Project</title>
+      <link>https://mailar.netlify.app/projects#asti</link>
+      <description>Digital e-service to apply for a place in early childhood education or enrol a child to school.</description>
+      <pubDate>Mon, 25 Feb 2025 09:05:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>WHALE Project</title>
+      <link>https://mailar.netlify.app/projects#whale</link>
+      <description>Online igaming platform and sportsbook.</description>
+      <pubDate>Mon, 25 Feb 2025 09:05:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
