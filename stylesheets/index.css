@@ -86,8 +86,17 @@ body main div section {
 }
 
 body main div section p {
-    font-size: 1rem;
+    font-size: medium;
     font-weight: normal;
+}
+
+body main div section h2 {
+    font-size: large;
+    font-weight: bold;
+}
+
+body main div section img {
+    width: 28rem;
 }
 
 body main div button {
@@ -97,15 +106,6 @@ body main div button {
 body main img {
     width: 8rem;
     border-radius: 1rem;
-}
-
-body main div section h2 {
-    font-size: medium;
-    font-weight: bold;
-}
-
-body main div section img {
-    width: 28rem;
 }
 
 footer {
@@ -145,6 +145,11 @@ footer img {
 
     body nav {
         grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    body header h1 {
+        font-size: large;
     }
 
     body main {
@@ -152,12 +157,27 @@ footer img {
         column-gap: 2rem;
     }
 
-    body main img {
-        display: none;
+    body main div section p {
+        font-size: small;
+        font-weight: normal;    
+    }
+
+    body main div section h2 {
+        font-size: medium;
     }
 
     body main div section img {
         display: block;
         width: 20rem;
+    }
+
+    body main img {
+        display: none;
+    }
+
+    footer p {
+        font-size: smaller;
+        font-weight: normal;
+        color: #000000;
     }
 }
