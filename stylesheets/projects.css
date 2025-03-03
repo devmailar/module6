@@ -80,7 +80,7 @@ body main div section {
     row-gap: 1rem;
 }
 
-body main div section span {
+body main div section h2 {
     font-size: large;
     font-weight: bold;
 }
