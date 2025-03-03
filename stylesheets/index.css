@@ -59,10 +59,6 @@ body nav ul li a {
     color: #000000;
 }
 
-body header {
-    grid-area: header;
-}
-
 body header h1 {
     font-size: x-large;
 }
